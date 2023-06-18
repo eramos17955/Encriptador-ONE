@@ -1,0 +1,211 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.titulo{
+  font-style: bold;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0A3871;
+  text-align: center;
+  margin: 18px 18px;
+}
+.logoalura{
+  margin-top: 2%;
+  margin-left: 1%;
+}
+body{
+  background-color: #E5E5E5;
+  margin: 0px 50px 0px 50px;
+}
+.container{
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 9px;
+}
+.inbox{
+  box-sizing: border-box;
+  width: 577px;
+  height: 548px;
+  padding-top: 70px;
+}
+#inputTexto{
+  width: 100%;
+  max-width: 577px;
+  height: 200px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #0A3871;
+  background-color: #E5E5E5;
+  border:none;
+  outline: none;
+  resize: none;
+}
+::placeholder{
+  color: #0A3871;
+}
+p{
+  margin-top: 135px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
+}
+.boxboton{
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.btnC{
+  width: 228px;
+  height: 57px;
+  color: #D8DFE8;
+  font-size: 19px;
+  background: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  cursor: pointer;  
+}
+.btnD{
+  margin-left: 25px;
+  width: 228px;
+  height: 57px;
+  color: #0A3871;
+  font-size: 19px;
+  background: #D8DFE8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  cursor: pointer;
+  
+}
+.outbox{
+  float: right;
+  width: 100%;
+  max-width: 250px;
+  padding: 20px 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+#otxt{
+  width: 240px;
+  height: 400px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  border:none;
+  outline: none;
+  color: #495057;
+  resize: none;
+}
+.btncopy{
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 90%;
+  height: 57px;
+  color: #0A3871;
+  font-size: 19px;
+  background: #FFFFFF;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  cursor: pointer;
+}
+footer i{
+  font-size: 60px;
+  margin: 60px 0px  20px 20px;
+  color:#0A3871;
+}
+.redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width:965px){
+  .logoalura{
+    margin-top: 5%;
+    margin-left: 0%;
+  }
+  .inbox{
+    box-sizing: border-box;-width: 577px;
+    height: 548px;
+    padding-top: 70px;
+  }    
+  #inputTexto{
+    width: 100%;
+    max-width: 577px;
+    height: 200px;
+  }
+  .boxboton{
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .btnC{
+    width: 100%;
+    max-width: 228px;
+    height: 57px;
+        
+  }
+  .btnD{
+    margin-left: 25px;
+    width: 100%;
+    max-width: 228px;
+    height: 57px;
+        
+  }
+  .outbox{
+    float: right;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    height: 300px;
+    margin-top: 20px;
+    padding: 20px 20px;
+  }
+  #otxt{
+    width: 100%;
+    height: 190px;
+  }
+}
+@media (max-width:450px){
+  .logoalura{
+    margin-top: 10%;
+    margin-left: 25%;
+    scale: 130%;
+  }
+  .boxboton{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .btnC{
+    width: 100%;
+    height: 57px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+      
+  }
+  .btnD{
+    width: 100%;
+    height: 57px;  
+  }
+  .outbox{
+    margin-top: 90px;
+  }
+}

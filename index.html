@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7d2d4dd086.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador de Texto con JavaScript</title>
+</head>
+<body>
+  <header>
+    <img class="logoalura"src="img/Frame6.png" alt="logoalura">
+    <br>
+    <h1 class="titulo">Encriptador de Texto con <span>JavaScript</span></h1>
+  </header>
+  <main class="container">
+    <section class="inbox">
+      <form class="formulario">
+        <textarea id="inputTexto" type="text" rows="15" cols="30" placeholder="Ingrese el texto aqui"></textarea>
+        <p>Solo letras minúsculas y sin acentos</p>
+        <div class="boxboton">
+            <button class="btnC" type="submit" id="btn-encriptar">Encriptar</button>
+            <button class="btnD" type="submit" id="btn-desencriptar">Desencriptar</button>
+        </div>
+      </form>   
+    </section>
+    <section class="outbox">
+        <textarea id="otxt" type="text" rows="15" cols="30"></textarea>
+        <button class="btncopy" type="submit" id="btn-copy" >Copiar!</button>
+    </section>
+  </main>
+  <script src="script.js"></script>  
+</body>
+<footer>
+  <div class="redes">
+    <a href="migithub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/edwin-ramos19">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </div>
+</footer>
+</html>
